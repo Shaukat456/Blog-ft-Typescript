@@ -4,6 +4,7 @@ const Work :NextPage =()=>{
     return (
         <>
         <h1>WORK PAGE</h1>
+        
         </>
     )
 }
