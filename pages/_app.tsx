@@ -5,13 +5,13 @@ import { useRouter } from 'next/router'
 
 function MyApp({ Component, pageProps }: AppProps) {
 
-// const token =localStorage.getItem("Token");
-// console.log(token)
+const token =localStorage.getItem("Token");
+console.log(token)
   
-// const router= useRouter();
-// if (token){
-//   router.push("/something ")
-// }
+const router= useRouter();
+if (token){
+  router.push("/something ")
+}
 
 
 
