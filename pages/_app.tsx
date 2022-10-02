@@ -9,9 +9,10 @@ function MyApp({ Component, pageProps }: AppProps) {
 const token =localStorage.getItem("Token");
 console.log(token)
   
+
 const router= useRouter();
 if (token){
-  router.push("/something ")
+  router.push("/Authenticate route  ")
 }
 
 
